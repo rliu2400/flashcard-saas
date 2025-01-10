@@ -1,37 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 AI-Powered Flashcard SaaS Platform
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The **AI-Powered Flashcard App** is a **SaaS platform** designed to enhance learning and knowledge retention through **AI-generated flashcards**. Leveraging **OpenAI**, this application allows users to efficiently generate personalized study materials, supporting academic preparation, professional certification, and self-paced learning.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This platform integrates **secure authentication (Clerk)** and **seamless subscription management (Stripe)**, ensuring a **scalable, user-friendly, and monetizable** experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔗 Live Application
+[Access the platform](https://lnkd.in/djTi77T2)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **AI-Generated Flashcards** – Automatically create structured study materials tailored to user input.
+- **Secure Authentication** – User management powered by **Clerk** for seamless login and session handling.
+- **Subscription & Payment Integration** – **Stripe** is implemented to facilitate secure transactions and subscription plans.
+- **Scalable Cloud Infrastructure** – **Firebase** is utilized for data storage, real-time synchronization, and hosting.
+- **Modern Web Architecture** – Built with **Next.js and TailwindCSS**, ensuring an optimized, responsive, and accessible interface.
 
-## Learn More
+## Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Technology     | Purpose |
+|---------------|---------|
+| **Next.js**   | Server-side rendering, optimized frontend framework |
+| **TailwindCSS** | Utility-first CSS framework for responsive UI |
+| **OpenAI API** | AI-powered flashcard generation |
+| **Firebase**  | Backend database, real-time storage, hosting |
+| **Clerk**     | Secure authentication and user management |
+| **Stripe**    | Subscription-based monetization and payment processing |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment & Hosting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Deployment:** The platform is optimized for deployment on **Vercel** for performance, scalability, and CDN support.
+- **Security:** Environment variables are used for sensitive API keys and credentials.
 
-## Deploy on Vercel
+## Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# flashcard-saas
