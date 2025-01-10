@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import getStripe from "@/utils/get-stripe";
 import { useSearchParams } from "next/navigation";
 import {
   CircularProgress,
@@ -12,25 +10,14 @@ import {
   Link,
 } from "@mui/material";
 import Header from "../header";
-import { useUser, isSignedIn } from "@clerk/nextjs";
 
 export default function ResultPage() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const session_id = searchParams.get("session_id");
 
   const [loading, setLoading] = useState(true);
   const [session, setSession] = useState(null);
   const [error, setError] = useState(null);
-  const [subscribed, setSubscribed] = useState(false);
-
-  const user = useUser();
-
-  const updateUser = async (subscription) => {
-    await user.update({
-      subscription: subscription,
-    });
-  };
 
   useEffect(() => {
     const fetchCheckoutSession = async () => {
