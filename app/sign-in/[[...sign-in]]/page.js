@@ -1,5 +1,5 @@
 import { SignIn } from "@clerk/nextjs"
-import { Container, Toolbar, AppBar, Typography, Button, Box, Link } from "@mui/material"
+import { Container, Typography, Box } from "@mui/material"
 import Header from '../../header'
 
 export default function SignInPage() {
