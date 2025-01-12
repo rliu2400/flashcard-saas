@@ -40,3 +40,4 @@ This platform integrates **secure authentication (Clerk)** and **seamless subscr
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
+This project is part of the Headstarter accelerator program.
