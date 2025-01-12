@@ -95,7 +95,7 @@ export default function Home() {
   };
 
   return (
-    <Container maxWidth="100vw" style={{ background: "lightblue" }}>
+    <Container maxWidth="100vw" style={{ background: "lightgrey" }}>
       <Header />
       {/* <Head>
           <title>Flashcard GenAI</title>
