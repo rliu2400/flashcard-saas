@@ -114,9 +114,8 @@ export default function Home() {
           </Toolbar>
         </AppBar> */}
       <Box sx={{ textAlign: "center", my: 4 }}>
-        <Typography variant="h2">Welcome to Flashcard GenAI</Typography>
-        <Typography variant="h5">
-          The easiest way to make flashcards from your text with the help of AI.
+        <Typography variant="h2">
+          Welcome to Your New Study Assistant
         </Typography>
         <Button
           variant="contained"
